@@ -59,6 +59,7 @@ Example public DNS:
 
 `ec2-3-121-222-53.eu-central-1.compute.amazonaws.com`
 
+
 ## 4. Connect from Mac Terminal**
 
 1. Use this command, replacing the example hostname with your instance's current Public IPv4 DNS:
