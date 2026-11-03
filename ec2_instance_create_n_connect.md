@@ -1,8 +1,8 @@
 # Creating and Connecting to a AWS EC2 Instance
 
 This guide explains how to launch an Ubuntu EC2 instance via the AWS website and connect to it using Terminal on macOS.
-<br>
 
+---
 ## 1. Create an EC2 instance in AWS
 
 1. Sign in to the AWS Management Console and open EC2.
