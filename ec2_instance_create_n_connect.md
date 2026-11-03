@@ -2,7 +2,6 @@
 
 This guide explains how to launch an Ubuntu EC2 instance via the AWS website and connect to it using Terminal on macOS.
 
----
 ## 1. Create an EC2 instance in AWS
 
 1. Sign in to the AWS Management Console and open EC2.
@@ -24,8 +23,8 @@ This guide explains how to launch an Ubuntu EC2 instance via the AWS website and
 9. Review the settings and click Launch instance.
 
 10. Select view all instances. Wait for `Instance state: Running`, to ensure our insatnce is working.
-    <br>
-
+    
+---
 ## 2. Prepare `.pem` key through terminal
 
 1. Open Terminal on your Mac and ensure the `Datastudents.pem` key is somewhere in your file system.
@@ -47,8 +46,8 @@ This guide explains how to launch an Ubuntu EC2 instance via the AWS website and
     `chmod 400 ~/.ssh/Datastudents.pem`
 
 This sllow the file owner to read the key and removes other permissions.
-<br>
 
+---
 ## 3.  Find the instance's connection details
 
 1. In EC2 Instances, select your instance.
@@ -61,8 +60,8 @@ Confirm the AMI is Ubuntu: the typical SSH username for an Ubuntu EC2 AMI is ubu
 Example public DNS:
 
 `ec2-3-121-222-53.eu-central-1.compute.amazonaws.com`
-<br>
 
+---
 ## 4. Connect from Mac Terminal
 
 1. Use this command, replacing the example hostname with your instance's current Public IPv4 DNS:
