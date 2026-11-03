@@ -24,9 +24,6 @@ This guide explains how to launch an Ubuntu EC2 instance via the AWS website and
 
 10. Select view all instances. Wait for `Instance state: Running`, to ensure our insatnce is working.
 
-----
-<br>
-
 ## 2. Prepare `.pem` key through terminal
 
 1. Open Terminal on your Mac and ensure the `Datastudents.pem` key is somewhere in your file system.
@@ -49,7 +46,7 @@ This guide explains how to launch an Ubuntu EC2 instance via the AWS website and
 
 This sllow the file owner to read the key and removes other permissions.
 
-# 3.  Find the instance's connection details
+## 3.  Find the instance's connection details
 
 1. In EC2 Instances, select your instance.
 
@@ -62,7 +59,7 @@ Example public DNS:
 
 `ec2-3-121-222-53.eu-central-1.compute.amazonaws.com`
 
-# 4. Connect from Mac Terminal**
+## 4. Connect from Mac Terminal**
 
 1. Use this command, replacing the example hostname with your instance's current Public IPv4 DNS:
 
