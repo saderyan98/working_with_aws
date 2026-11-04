@@ -89,10 +89,10 @@ app = Flask(name)
 
 @app.route('/')
 def hello_world():
-return 'Hello World'
+  return 'Hello World'
 
-if name == 'main':
-app.run(host="0.0.0.0", port=5000)
+if __name == '__main__':
+  app.run(host="0.0.0.0", port=5000)
 ```
 
 ### Code Explanation
