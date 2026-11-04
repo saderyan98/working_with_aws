@@ -54,7 +54,7 @@ This sllow the file owner to read the key and removes other permissions.
 
 2. In the Details tab, find Public IPv4 DNS or Public IPv4 address.
 
-3. Copy the sting. 
+3. Copy the string. 
 
 Confirm the AMI is Ubuntu: the typical SSH username for an Ubuntu EC2 AMI is ubuntu.
 Example public DNS:
