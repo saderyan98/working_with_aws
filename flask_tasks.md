@@ -81,9 +81,7 @@ Run:
 python app.py
 ```
 
-Flask should start on port 5000.
-
-Keep the terminal open while testing.
+Keep terminal open while testing.
 
 ## Step 4: Test the API Endpoints
 
@@ -96,8 +94,6 @@ http://YOUR_PUBLIC_IP:5000/students
 ```
 
 Returns all students in JSON format.
-
-Expected status: `200 OK`
 
 ### Get One Student
 
