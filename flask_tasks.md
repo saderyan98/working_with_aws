@@ -1,15 +1,3 @@
-☐  Complete at least one data extension and one engineering or cloud extension.
-☐  Keep evidence of your work, such as screenshots, API responses, database queries or Git commits.
-☐  Be ready to explain what you changed, why you changed it and how the components connect.
-
-Data and API extensions
-1. Create a JSON API  ★
-☐  Add an endpoint that returns a collection of records as JSON.
-☐  Add an endpoint that returns one record using an ID.
-☐  Return an appropriate status code when a record is not found.
-☐  Test the endpoints using a browser, curl, Postman or Python requests.
-
-
 # Creating a JSON API with Flask on AWS EC2
 
 How to extend an existing Flask application on AWS EC2 to create a simple JSON API.
