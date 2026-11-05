@@ -181,21 +181,3 @@ The `-i` option displays the HTTP status code and response headers.
 | `200` | Successful HTTP response |
 | `404` | Record not found |
 | `host="0.0.0.0"` | Allows connections from outside EC2 |
-
-## How the API Works
-
-1. A browser or curl sends an HTTP GET request.
-2. The request reaches the Flask application running on AWS EC2.
-3. Flask matches the URL to the correct route.
-4. The function retrieves the requested student data.
-5. Flask returns a JSON response with an HTTP status code.
-
-## Conclusion
-
-The Flask application has been extended to provide a simple JSON API.
-
-The API can return multiple records, retrieve a single record using an ID, and handle missing records with a 404 response.
-
-The application uses sample Python data rather than a database.
-
-**Note:** Flask's built-in server is suitable for this training exercise but should not be used for a public production deployment.
